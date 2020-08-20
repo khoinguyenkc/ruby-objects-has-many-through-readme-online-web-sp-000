@@ -1,7 +1,7 @@
 class Customer
   attr_accessor :name, :age
 
-  @@all = []
+  @@all = [] #all the customers . CLASS variable
 
   def initialize(name, age)
     @name = name
